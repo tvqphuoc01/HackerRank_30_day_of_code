@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+char* readline();
+
+
+
+int main()
+{
+    int N;
+    scanf("%d",&N);
+    if(N%2==1){
+        printf("Weird");
+    } else if(N%2==0){
+        if(N >= 2 && N<=5){
+            printf("Not Weird");
+        }
+        else if(N >= 6 && N <= 20){
+            printf("Weird");
+        }else if(N > 20){
+            printf("Not Weird");
+        }
+    }
+    return 0;
+}
