@@ -1,1 +1,1 @@
-# RackerRank_30_day_of_code
+# HackerRank_30_day_of_code
